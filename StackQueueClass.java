@@ -31,6 +31,9 @@ public class StackQueueClass {
 		queue.add(70);
 
 		System.out.println("Queue = " + queue);
+		System.out.println("Dequeuing using linkedlist operations");
+		queue.remove();
+		System.out.println(queue);
 	}
 
 	public static void main(String[] args) {
